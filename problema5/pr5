@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Problema5</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="problema5.js"></script>
+    <link rel="stylesheet" type="text/css" href="problema5.css">
+</head>
+<body>
+<ol class="container">
+    <li class="pictures fade">
+        <img src="1.jpg" style="width:1000px; height:500px">
+        <div class="text"><a href="https://destepti.ro/wp-content/uploads/2014/09/Johannes-Vermeer-Fata-cu-cercel-de-perla.jpg">Fata cu cercel de perla</a></div>
+    </li>
+    <li class="pictures fade">
+        <img src="2.jpg" style="width:1000px; height:500px">
+        <div class="text"><a href="https://destepti.ro/wp-content/uploads/2014/09/Tipatul-710x455.jpg">Strigatul</a></div>
+    </li>
+    <li class="pictures fade">
+        <img src="3.jpg" style="width:1000px; height:500px">
+        <div class="text"><a href="https://romanialibera.ro/imagini/446/334.5/crop/713117-1519907594-un-film-despre-van-gogh-realizat-din-65000-de-picturi-in-ulei-animate-in-cursa-pentru-un-oscar.jpg">Van Gogh</a></div>
+    </li>
+    <li class="pictures fade">
+        <img src="4.jpg" style="width:1000px; height:500px">
+        <div class="text"><a href="https://i.pinimg.com/originals/e9/64/d5/e964d5df29f29d9ca4a2d385cdd3d026.jpg">Car cu boi</a></div>
+    </li>
+    <a class="prev" onclick="goTo(-1)">Prev < </a>
+    <a class="next" onclick="goTo(1)">Next > </a>
+</ol>
+<br>
+</body>
+</html>
+

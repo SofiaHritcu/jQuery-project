@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema3Numere</title>
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"
+            type="text/javascript">
+    </script>
+    <script src="problema3_numere.js"></script>
+</head>
+<style>
+    div{
+        display: table;
+        border:transparent;
+        width:540px;
+        height:540px;
+        margin: 0px auto;
+    }
+    div > div {
+        border:1px solid black;
+        width:71px;
+        height:71px;
+        float:left;
+        margin:10px;
+        padding:20px;
+        font-size:64px;
+        cursor:pointer;
+        text-align:center;
+    }
+    div > button {
+        border:1px solid black;
+        width:100px;
+        height:70px;
+        margin:220px;
+        padding:20px;
+        cursor:pointer;
+        text-align:center;
+        background-color: lightcoral;
+    }
+</style>
+<body>
+   <div id="mainDiv">
+       <button id="newGameBttn">Start game</button>
+   </div>
+</body>
+</html>

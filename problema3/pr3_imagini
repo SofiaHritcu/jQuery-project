@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema3Imagini</title>
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"
+            type="text/javascript">
+    </script>
+    <script src="problema3_imagini.js"></script>
+</head>
+<style>
+    div{
+        display: table;
+        border:transparent;
+        width:540px;
+        height:540px;
+        margin: 0px auto;
+    }
+    div > div {
+        border: 1px solid black;
+        width:71px;
+        height:71px;
+        float:left;
+        margin:10px;
+        padding:20px;
+        font-size:64px;
+        cursor:pointer;
+        text-align:center;
+        background-image: url("initial.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div > button {
+        border: 1px solid black;
+        width:100px;
+        height:70px;
+        margin:220px;
+        padding:20px;
+        cursor:pointer;
+        text-align:center;
+        background-color: lightcoral;
+    }
+    .clicked1{
+        background-image: url("clicked1.jpg");
+    }
+    .clicked2{
+        background-image: url("clicked2.jpg");
+    }
+    .clicked3{
+        background-image: url("clicked3.jpg");
+    }
+    .clicked4{
+        background-image: url("clicked4.jpg");
+    }
+    .clicked5{
+        background-image: url("clicked5.jpg");
+    }
+    .clicked6{
+        background-image: url("clicked6.jpg");
+    }
+    .clicked7{
+        background-image: url("clicked7.jpg");
+    }
+    .clicked8{
+        background-image: url("clicked8.jpg");
+    }
+    .wrong{
+        background-image: url("initial.jpg");
+    }
+</style>
+<body>
+<div id="mainDiv">
+    <button id="newGameBttn">Start game</button>
+</div>
+</body>
+</html>

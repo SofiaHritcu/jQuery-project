@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Problema4Horizontal</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="problema4Horizontal.js"></script>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        table tr td {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        table tr th {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        td,th {
+            text-align: center;
+        }
+        table tr{
+            border-bottom: 2px lightgrey solid;
+        }
+        table:last-child{
+            border-bottom: white solid;
+        }
+    </style>
+</head>
+<body>
+<table class=vertTable>
+    <thead>
+    <tr>
+        <th>Fructe</th>
+        <th>Cantitate</th>
+        <th>Pret</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Mere</td>
+        <td>4</td>
+        <td>129</td>
+    </tr>
+    <tr>
+        <td>Pere</td>
+        <td>2</td>
+        <td>324</td>
+    </tr>
+    <tr>
+        <td>Caise</td>
+        <td>1</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Prune</td>
+        <td>5</td>
+        <td>100</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

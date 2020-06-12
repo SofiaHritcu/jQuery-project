@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema1</title>
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"
+            type="text/javascript">
+
+    </script>
+    <script src="problema1.js"></script>
+</head>
+<body>
+<select id="firstList" style="background-color: lightgreen">
+    <option id="fstOption0">fst0</option>
+    <option id="fstOption1">fst1</option>
+    <option id="fstOption2">fst2</option>
+    <option id="fstOption3">fst3</option>
+    <option id="fstOption4">fst4</option>
+    <option id="fstOption5">fst5</option>
+</select>
+<select id="secondList" style="background-color: lightblue" >
+    <option id="scndOption0">scnd0</option>
+    <option id="scndOption1">scnd1</option>
+    <option id="scndOption2">scnd2</option>
+    <option id="scndOption3">scnd3</option>
+    <option id="scndOption4">scnd4</option>
+    <option id="scndOption5">scnd5</option>
+    <option id="scndOption6">scnd6</option>
+</select>
+</body>
+</html>
